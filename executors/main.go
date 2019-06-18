@@ -58,8 +58,8 @@ type Lifetime struct {
 
 // SetLifetime allows setting the credential lifespan
 func (l *Lifetime) SetLifetime(val int64) error {
-	if val != 0 && (val < 900 || val > 3600) {
-		return fmt.Errorf("lifetime must be between 900 and 3600: %d", val)
+	if val != 0 && (val < 900 || val > 36000) {
+		return fmt.Errorf("lifetime must be between 900 and 36000: %d", val)
 	}
 	logger.InfoMsg(fmt.Sprintf("Setting lifetime to %d", val))
 	l.lifetimeInt = val
