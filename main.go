@@ -6,7 +6,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/awserr"
 
-	"github.com/akerl/speculate/cmd"
+	"github.com/AndreiLuther/speculate/cmd"
 )
 
 func main() {

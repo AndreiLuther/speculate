@@ -3,7 +3,7 @@ package executors
 import (
 	"fmt"
 
-	"github.com/akerl/speculate/creds"
+	"github.com/AndreiLuther/speculate/creds"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sts"
