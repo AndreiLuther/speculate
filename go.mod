@@ -1,4 +1,4 @@
-module github.com/akerl/speculate
+module github.com/AndreiLuther/speculate
 
 require (
 	github.com/akerl/timber v0.0.3

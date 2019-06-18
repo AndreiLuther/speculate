@@ -7,7 +7,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/akerl/speculate/creds"
+	"github.com/AndreiLuther/speculate/creds"
 
 	"github.com/akerl/timber/log"
 	"github.com/aws/aws-sdk-go/service/sts"
